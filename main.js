@@ -46,7 +46,23 @@ w  c(..)o   (
      m  m
 
 `
-
+const rabbit =  `  
+                               __
+                     /\\    .-" /
+                    /  ; .'  .' 
+                   :   :/  .'   
+                    \\  ;-.'     
+       .--""""--..__/     \`.    
+     .'           .'    \`o  \\  
+    /                    \`   ;  
+   :                  \\      :  
+ .-;        -.         \`.__.-'  
+:  ;          \\     ,   ;       
+'._:           ;   :   (        
+    \\/  .__    ;    \\   \`-.     
+     "-,/_..--"\`-..__)    
+     '""--.._:
+                                `
 
 const randomMotivationMsg = () => {
     let random1 = Math.floor(Math.random()*(niceSyn.length - 1));
@@ -54,7 +70,7 @@ const randomMotivationMsg = () => {
     let random3 = Math.floor(Math.random()*(timeSyn.length - 1));
     let random4 = Math.floor(Math.random()*(fillSyn.length - 1));
 
-    const asciiArt = [dog, cat, dolphin, monkey]
+    const asciiArt = [dog, cat, dolphin, monkey, rabbit]
     let random5 = Math.floor(Math.random()*(asciiArt.length - 1));
     
 
